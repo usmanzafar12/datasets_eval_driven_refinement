@@ -206,4 +206,22 @@ df = pd.json_normalize(samples)
 
 ## License & Citation
 
-_TODO: add license and citation details._
+If you use this dataset, please cite the accompanying paper:
+
+> Zafar, U. (2026). *Evaluation-Driven Agentic Artificial Intelligence for Electric Vehicle Routing and Charging Solver Development*.
+
+BibTeX (fill in `journal` and `doi` after publication):
+
+```bibtex
+@article{zafar2026evaldriven,
+  author  = {Zafar, U.},
+  title   = {Evaluation-Driven Agentic Artificial Intelligence for Electric Vehicle Routing and Charging Solver Development},
+  journal = {}, % to be added
+  year    = {2026},
+  doi     = {}  % to be added
+}
+```
+
+Dataset repository: <https://github.com/usmanzafar12/datasets_eval_driven_refinement>
+
+A [`CITATION.cff`](CITATION.cff) file is provided alongside this README so that GitHub renders a "Cite this repository" button pointing to the paper above.
