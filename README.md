@@ -19,7 +19,7 @@ Every dataset is split into three sets: `train`, `validate`, and `final_evaluate
 
 ## Paper ↔ File Mapping
 
-The paper *"Human-AI Symbiosis in Algorithmic Automation: Evaluation-Driven Iterative Refinement for Constrained EV Charging and Routing Solvers"* refers to the four benchmark families by acronym. The table below maps those names to the files in this folder.
+The paper *"Evaluation-Driven Agentic Artificial Intelligence for Electric Vehicle Routing and Charging Solver Development"* refers to the four benchmark families by acronym. The table below maps those names to the files in this folder.
 
 | Paper name | Full name | Benchmark file | Graph asset |
 | --- | --- | --- | --- |
