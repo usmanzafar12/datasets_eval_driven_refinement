@@ -1,0 +1,1860 @@
+{
+    "dataset_name": "routing_synthetic",
+    "domain": "routing",
+    "dataset_type": "evaluation_set",
+    "format_version": "iterative_refinement_v1",
+    "cost_unit": "m",
+    "split_summary": {
+        "train": 32,
+        "validate": 16,
+        "final_evaluate": 24
+    },
+    "criteria_summary": {
+        "C1": {
+            "total": 9,
+            "train": 4,
+            "validate": 2,
+            "final_evaluate": 3
+        },
+        "C2": {
+            "total": 9,
+            "train": 4,
+            "validate": 2,
+            "final_evaluate": 3
+        },
+        "C3": {
+            "total": 9,
+            "train": 4,
+            "validate": 2,
+            "final_evaluate": 3
+        },
+        "C4": {
+            "total": 9,
+            "train": 4,
+            "validate": 2,
+            "final_evaluate": 3
+        },
+        "C5": {
+            "total": 9,
+            "train": 4,
+            "validate": 2,
+            "final_evaluate": 3
+        },
+        "C6": {
+            "total": 9,
+            "train": 4,
+            "validate": 2,
+            "final_evaluate": 3
+        },
+        "C7": {
+            "total": 9,
+            "train": 4,
+            "validate": 2,
+            "final_evaluate": 3
+        },
+        "C8": {
+            "total": 9,
+            "train": 4,
+            "validate": 2,
+            "final_evaluate": 3
+        }
+    },
+    "evaluation_samples": [
+        {
+            "id": "eval_C1_007_Synthetic",
+            "criteria_id": "C1",
+            "split": "final_evaluate",
+            "expected_parameters": {
+                "source_label": 8,
+                "sink_label": 13,
+                "start_soc_percentage": 1,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": null,
+                "cost_m": null,
+                "path": null
+            }
+        },
+        {
+            "id": "eval_C1_008_Synthetic",
+            "criteria_id": "C1",
+            "split": "final_evaluate",
+            "expected_parameters": {
+                "source_label": 19,
+                "sink_label": 24,
+                "start_soc_percentage": 1,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": "Direct",
+                "cost_m": 4101,
+                "path": [
+                    19,
+                    24
+                ]
+            }
+        },
+        {
+            "id": "eval_C1_009_Synthetic",
+            "criteria_id": "C1",
+            "split": "final_evaluate",
+            "expected_parameters": {
+                "source_label": 17,
+                "sink_label": 19,
+                "start_soc_percentage": 5,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": null,
+                "cost_m": null,
+                "path": null
+            }
+        },
+        {
+            "id": "eval_C1_001_Synthetic",
+            "criteria_id": "C1",
+            "split": "train",
+            "expected_parameters": {
+                "source_label": 14,
+                "sink_label": 6,
+                "start_soc_percentage": 1,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": "Direct",
+                "cost_m": 4630,
+                "path": [
+                    14,
+                    10,
+                    6
+                ]
+            }
+        },
+        {
+            "id": "eval_C1_002_Synthetic",
+            "criteria_id": "C1",
+            "split": "train",
+            "expected_parameters": {
+                "source_label": 13,
+                "sink_label": 23,
+                "start_soc_percentage": 1,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": "Direct",
+                "cost_m": 4658,
+                "path": [
+                    13,
+                    11,
+                    23
+                ]
+            }
+        },
+        {
+            "id": "eval_C1_003_Synthetic",
+            "criteria_id": "C1",
+            "split": "train",
+            "expected_parameters": {
+                "source_label": 8,
+                "sink_label": 12,
+                "start_soc_percentage": 1,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": "Direct",
+                "cost_m": 4394,
+                "path": [
+                    8,
+                    23,
+                    12
+                ]
+            }
+        },
+        {
+            "id": "eval_C1_004_Synthetic",
+            "criteria_id": "C1",
+            "split": "train",
+            "expected_parameters": {
+                "source_label": 24,
+                "sink_label": 6,
+                "start_soc_percentage": 1,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": "Direct",
+                "cost_m": 4408,
+                "path": [
+                    24,
+                    10,
+                    6
+                ]
+            }
+        },
+        {
+            "id": "eval_C1_005_Synthetic",
+            "criteria_id": "C1",
+            "split": "validate",
+            "expected_parameters": {
+                "source_label": 7,
+                "sink_label": 24,
+                "start_soc_percentage": 1,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": null,
+                "cost_m": null,
+                "path": null
+            }
+        },
+        {
+            "id": "eval_C1_006_Synthetic",
+            "criteria_id": "C1",
+            "split": "validate",
+            "expected_parameters": {
+                "source_label": 0,
+                "sink_label": 15,
+                "start_soc_percentage": 10,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": "Direct",
+                "cost_m": 46484,
+                "path": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    22,
+                    23,
+                    9,
+                    19,
+                    24,
+                    15
+                ]
+            }
+        },
+        {
+            "id": "eval_C2_016_Synthetic",
+            "criteria_id": "C2",
+            "split": "final_evaluate",
+            "expected_parameters": {
+                "source_label": 2,
+                "sink_label": 0,
+                "start_soc_percentage": 5,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": 5,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": null,
+                "cost_m": null,
+                "path": null
+            }
+        },
+        {
+            "id": "eval_C2_017_Synthetic",
+            "criteria_id": "C2",
+            "split": "final_evaluate",
+            "expected_parameters": {
+                "source_label": 5,
+                "sink_label": 16,
+                "start_soc_percentage": 10,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": 5,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": "Direct",
+                "cost_m": 20020,
+                "path": [
+                    5,
+                    21,
+                    20,
+                    13,
+                    11,
+                    23,
+                    22,
+                    3,
+                    16
+                ]
+            }
+        },
+        {
+            "id": "eval_C2_018_Synthetic",
+            "criteria_id": "C2",
+            "split": "final_evaluate",
+            "expected_parameters": {
+                "source_label": 2,
+                "sink_label": 3,
+                "start_soc_percentage": 5,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": 10,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": null,
+                "cost_m": null,
+                "path": null
+            }
+        },
+        {
+            "id": "eval_C2_010_Synthetic",
+            "criteria_id": "C2",
+            "split": "train",
+            "expected_parameters": {
+                "source_label": 17,
+                "sink_label": 15,
+                "start_soc_percentage": 10,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": 5,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": "Direct",
+                "cost_m": 20221,
+                "path": [
+                    17,
+                    7,
+                    24,
+                    15
+                ]
+            }
+        },
+        {
+            "id": "eval_C2_011_Synthetic",
+            "criteria_id": "C2",
+            "split": "train",
+            "expected_parameters": {
+                "source_label": 2,
+                "sink_label": 12,
+                "start_soc_percentage": 15,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": 10,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": "Direct",
+                "cost_m": 20600,
+                "path": [
+                    2,
+                    3,
+                    22,
+                    23,
+                    12
+                ]
+            }
+        },
+        {
+            "id": "eval_C2_012_Synthetic",
+            "criteria_id": "C2",
+            "split": "train",
+            "expected_parameters": {
+                "source_label": 2,
+                "sink_label": 4,
+                "start_soc_percentage": 15,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": 10,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": "Direct",
+                "cost_m": 22923,
+                "path": [
+                    2,
+                    3,
+                    22,
+                    23,
+                    12,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "eval_C2_013_Synthetic",
+            "criteria_id": "C2",
+            "split": "train",
+            "expected_parameters": {
+                "source_label": 2,
+                "sink_label": 4,
+                "start_soc_percentage": 10,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": 5,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": "Direct",
+                "cost_m": 22923,
+                "path": [
+                    2,
+                    3,
+                    22,
+                    23,
+                    12,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "eval_C2_014_Synthetic",
+            "criteria_id": "C2",
+            "split": "validate",
+            "expected_parameters": {
+                "source_label": 2,
+                "sink_label": 16,
+                "start_soc_percentage": 5,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": 5,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": null,
+                "cost_m": null,
+                "path": null
+            }
+        },
+        {
+            "id": "eval_C2_015_Synthetic",
+            "criteria_id": "C2",
+            "split": "validate",
+            "expected_parameters": {
+                "source_label": 17,
+                "sink_label": 14,
+                "start_soc_percentage": 20,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": 15,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": "Direct",
+                "cost_m": 21804,
+                "path": [
+                    17,
+                    7,
+                    24,
+                    10,
+                    14
+                ]
+            }
+        },
+        {
+            "id": "eval_C3_025_Synthetic",
+            "criteria_id": "C3",
+            "split": "final_evaluate",
+            "expected_parameters": {
+                "source_label": 17,
+                "sink_label": 4,
+                "start_soc_percentage": 5,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": true
+            },
+            "expected_result": {
+                "route_type": null,
+                "cost_m": null,
+                "path": null
+            }
+        },
+        {
+            "id": "eval_C3_026_Synthetic",
+            "criteria_id": "C3",
+            "split": "final_evaluate",
+            "expected_parameters": {
+                "source_label": 14,
+                "sink_label": 13,
+                "start_soc_percentage": 1,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": true
+            },
+            "expected_result": {
+                "route_type": "Via Charger 6",
+                "cost_m": 17327,
+                "path": [
+                    14,
+                    10,
+                    6,
+                    19,
+                    9,
+                    11,
+                    13
+                ]
+            }
+        },
+        {
+            "id": "eval_C3_027_Synthetic",
+            "criteria_id": "C3",
+            "split": "final_evaluate",
+            "expected_parameters": {
+                "source_label": 17,
+                "sink_label": 21,
+                "start_soc_percentage": 5,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": true
+            },
+            "expected_result": {
+                "route_type": null,
+                "cost_m": null,
+                "path": null
+            }
+        },
+        {
+            "id": "eval_C3_019_Synthetic",
+            "criteria_id": "C3",
+            "split": "train",
+            "expected_parameters": {
+                "source_label": 6,
+                "sink_label": 17,
+                "start_soc_percentage": 5,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": true
+            },
+            "expected_result": {
+                "route_type": null,
+                "cost_m": null,
+                "path": null
+            }
+        },
+        {
+            "id": "eval_C3_020_Synthetic",
+            "criteria_id": "C3",
+            "split": "train",
+            "expected_parameters": {
+                "source_label": 17,
+                "sink_label": 6,
+                "start_soc_percentage": 5,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": true
+            },
+            "expected_result": {
+                "route_type": null,
+                "cost_m": null,
+                "path": null
+            }
+        },
+        {
+            "id": "eval_C3_021_Synthetic",
+            "criteria_id": "C3",
+            "split": "train",
+            "expected_parameters": {
+                "source_label": 17,
+                "sink_label": 8,
+                "start_soc_percentage": 5,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": true
+            },
+            "expected_result": {
+                "route_type": null,
+                "cost_m": null,
+                "path": null
+            }
+        },
+        {
+            "id": "eval_C3_022_Synthetic",
+            "criteria_id": "C3",
+            "split": "train",
+            "expected_parameters": {
+                "source_label": 14,
+                "sink_label": 0,
+                "start_soc_percentage": 1,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": true
+            },
+            "expected_result": {
+                "route_type": "Via Charger 6",
+                "cost_m": 49972,
+                "path": [
+                    14,
+                    10,
+                    6,
+                    19,
+                    9,
+                    23,
+                    22,
+                    3,
+                    2,
+                    1,
+                    0
+                ]
+            }
+        },
+        {
+            "id": "eval_C3_023_Synthetic",
+            "criteria_id": "C3",
+            "split": "validate",
+            "expected_parameters": {
+                "source_label": 17,
+                "sink_label": 13,
+                "start_soc_percentage": 5,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": true
+            },
+            "expected_result": {
+                "route_type": null,
+                "cost_m": null,
+                "path": null
+            }
+        },
+        {
+            "id": "eval_C3_024_Synthetic",
+            "criteria_id": "C3",
+            "split": "validate",
+            "expected_parameters": {
+                "source_label": 14,
+                "sink_label": 5,
+                "start_soc_percentage": 1,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": true
+            },
+            "expected_result": {
+                "route_type": "Via Charger 6",
+                "cost_m": 25323,
+                "path": [
+                    14,
+                    10,
+                    6,
+                    19,
+                    9,
+                    11,
+                    13,
+                    20,
+                    21,
+                    5
+                ]
+            }
+        },
+        {
+            "id": "eval_C4_034_Synthetic",
+            "criteria_id": "C4",
+            "split": "final_evaluate",
+            "expected_parameters": {
+                "source_label": 15,
+                "sink_label": 9,
+                "start_soc_percentage": 1,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": true
+            },
+            "expected_result": {
+                "route_type": null,
+                "cost_m": null,
+                "path": null
+            }
+        },
+        {
+            "id": "eval_C4_035_Synthetic",
+            "criteria_id": "C4",
+            "split": "final_evaluate",
+            "expected_parameters": {
+                "source_label": 11,
+                "sink_label": 18,
+                "start_soc_percentage": 5,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": true
+            },
+            "expected_result": {
+                "route_type": "Via Charger 6",
+                "cost_m": 47703,
+                "path": [
+                    11,
+                    9,
+                    19,
+                    6,
+                    10,
+                    24,
+                    7,
+                    17,
+                    18
+                ]
+            }
+        },
+        {
+            "id": "eval_C4_036_Synthetic",
+            "criteria_id": "C4",
+            "split": "final_evaluate",
+            "expected_parameters": {
+                "source_label": 9,
+                "sink_label": 20,
+                "start_soc_percentage": 1,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": true
+            },
+            "expected_result": {
+                "route_type": null,
+                "cost_m": null,
+                "path": null
+            }
+        },
+        {
+            "id": "eval_C4_028_Synthetic",
+            "criteria_id": "C4",
+            "split": "train",
+            "expected_parameters": {
+                "source_label": 10,
+                "sink_label": 0,
+                "start_soc_percentage": 5,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": true
+            },
+            "expected_result": {
+                "route_type": "Via Charger 6",
+                "cost_m": 48628,
+                "path": [
+                    10,
+                    6,
+                    19,
+                    9,
+                    23,
+                    22,
+                    3,
+                    2,
+                    1,
+                    0
+                ]
+            }
+        },
+        {
+            "id": "eval_C4_029_Synthetic",
+            "criteria_id": "C4",
+            "split": "train",
+            "expected_parameters": {
+                "source_label": 10,
+                "sink_label": 0,
+                "start_soc_percentage": 10,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": true
+            },
+            "expected_result": {
+                "route_type": "Via Charger 2",
+                "cost_m": 46722,
+                "path": [
+                    10,
+                    24,
+                    19,
+                    9,
+                    23,
+                    22,
+                    3,
+                    2,
+                    1,
+                    0
+                ]
+            }
+        },
+        {
+            "id": "eval_C4_030_Synthetic",
+            "criteria_id": "C4",
+            "split": "train",
+            "expected_parameters": {
+                "source_label": 3,
+                "sink_label": 18,
+                "start_soc_percentage": 10,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": true
+            },
+            "expected_result": {
+                "route_type": "Via Charger 17",
+                "cost_m": 51157,
+                "path": [
+                    3,
+                    22,
+                    23,
+                    9,
+                    19,
+                    24,
+                    7,
+                    17,
+                    18
+                ]
+            }
+        },
+        {
+            "id": "eval_C4_031_Synthetic",
+            "criteria_id": "C4",
+            "split": "train",
+            "expected_parameters": {
+                "source_label": 1,
+                "sink_label": 18,
+                "start_soc_percentage": 10,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": true
+            },
+            "expected_result": {
+                "route_type": "Via Charger 2",
+                "cost_m": 71568,
+                "path": [
+                    1,
+                    2,
+                    3,
+                    22,
+                    23,
+                    9,
+                    19,
+                    24,
+                    7,
+                    17,
+                    18
+                ]
+            }
+        },
+        {
+            "id": "eval_C4_032_Synthetic",
+            "criteria_id": "C4",
+            "split": "validate",
+            "expected_parameters": {
+                "source_label": 12,
+                "sink_label": 22,
+                "start_soc_percentage": 1,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": true
+            },
+            "expected_result": {
+                "route_type": null,
+                "cost_m": null,
+                "path": null
+            }
+        },
+        {
+            "id": "eval_C4_033_Synthetic",
+            "criteria_id": "C4",
+            "split": "validate",
+            "expected_parameters": {
+                "source_label": 7,
+                "sink_label": 0,
+                "start_soc_percentage": 10,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": true
+            },
+            "expected_result": {
+                "route_type": "Via Charger 2",
+                "cost_m": 50760,
+                "path": [
+                    7,
+                    24,
+                    19,
+                    9,
+                    23,
+                    22,
+                    3,
+                    2,
+                    1,
+                    0
+                ]
+            }
+        },
+        {
+            "id": "eval_C5_043_Synthetic",
+            "criteria_id": "C5",
+            "split": "final_evaluate",
+            "expected_parameters": {
+                "source_label": 22,
+                "sink_label": 17,
+                "start_soc_percentage": 10,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": 95,
+                "green_charger_only": true
+            },
+            "expected_result": {
+                "route_type": null,
+                "cost_m": null,
+                "path": null
+            }
+        },
+        {
+            "id": "eval_C5_044_Synthetic",
+            "criteria_id": "C5",
+            "split": "final_evaluate",
+            "expected_parameters": {
+                "source_label": 4,
+                "sink_label": 19,
+                "start_soc_percentage": 15,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": 95,
+                "green_charger_only": true
+            },
+            "expected_result": {
+                "route_type": "Via Charger 6",
+                "cost_m": 11654,
+                "path": [
+                    4,
+                    19,
+                    6,
+                    19
+                ]
+            }
+        },
+        {
+            "id": "eval_C5_045_Synthetic",
+            "criteria_id": "C5",
+            "split": "final_evaluate",
+            "expected_parameters": {
+                "source_label": 22,
+                "sink_label": 6,
+                "start_soc_percentage": 10,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": 95,
+                "green_charger_only": true
+            },
+            "expected_result": {
+                "route_type": null,
+                "cost_m": null,
+                "path": null
+            }
+        },
+        {
+            "id": "eval_C5_037_Synthetic",
+            "criteria_id": "C5",
+            "split": "train",
+            "expected_parameters": {
+                "source_label": 16,
+                "sink_label": 19,
+                "start_soc_percentage": 10,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": 95,
+                "green_charger_only": true
+            },
+            "expected_result": {
+                "route_type": "Via Charger 6",
+                "cost_m": 22853,
+                "path": [
+                    16,
+                    3,
+                    22,
+                    23,
+                    9,
+                    19,
+                    6,
+                    19
+                ]
+            }
+        },
+        {
+            "id": "eval_C5_038_Synthetic",
+            "criteria_id": "C5",
+            "split": "train",
+            "expected_parameters": {
+                "source_label": 0,
+                "sink_label": 19,
+                "start_soc_percentage": 15,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": 95,
+                "green_charger_only": true
+            },
+            "expected_result": {
+                "route_type": "Via Charger 6",
+                "cost_m": 49186,
+                "path": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    22,
+                    23,
+                    9,
+                    19,
+                    6,
+                    19
+                ]
+            }
+        },
+        {
+            "id": "eval_C5_039_Synthetic",
+            "criteria_id": "C5",
+            "split": "train",
+            "expected_parameters": {
+                "source_label": 18,
+                "sink_label": 19,
+                "start_soc_percentage": 15,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": 95,
+                "green_charger_only": true
+            },
+            "expected_result": {
+                "route_type": "Via Charger 6",
+                "cost_m": 41315,
+                "path": [
+                    18,
+                    17,
+                    7,
+                    24,
+                    10,
+                    6,
+                    19
+                ]
+            }
+        },
+        {
+            "id": "eval_C5_040_Synthetic",
+            "criteria_id": "C5",
+            "split": "train",
+            "expected_parameters": {
+                "source_label": 3,
+                "sink_label": 19,
+                "start_soc_percentage": 10,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": 95,
+                "green_charger_only": true
+            },
+            "expected_result": {
+                "route_type": "Via Charger 6",
+                "cost_m": 21679,
+                "path": [
+                    3,
+                    22,
+                    23,
+                    9,
+                    19,
+                    6,
+                    19
+                ]
+            }
+        },
+        {
+            "id": "eval_C5_041_Synthetic",
+            "criteria_id": "C5",
+            "split": "validate",
+            "expected_parameters": {
+                "source_label": 9,
+                "sink_label": 17,
+                "start_soc_percentage": 10,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": 95,
+                "green_charger_only": true
+            },
+            "expected_result": {
+                "route_type": null,
+                "cost_m": null,
+                "path": null
+            }
+        },
+        {
+            "id": "eval_C5_042_Synthetic",
+            "criteria_id": "C5",
+            "split": "validate",
+            "expected_parameters": {
+                "source_label": 15,
+                "sink_label": 19,
+                "start_soc_percentage": 5,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": 95,
+                "green_charger_only": true
+            },
+            "expected_result": {
+                "route_type": "Via Charger 6",
+                "cost_m": 9135,
+                "path": [
+                    15,
+                    24,
+                    10,
+                    6,
+                    19
+                ]
+            }
+        },
+        {
+            "id": "eval_C6_052_Synthetic",
+            "criteria_id": "C6",
+            "split": "final_evaluate",
+            "expected_parameters": {
+                "source_label": 15,
+                "sink_label": 20,
+                "start_soc_percentage": 1,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": null,
+                "cost_m": null,
+                "path": null
+            }
+        },
+        {
+            "id": "eval_C6_053_Synthetic",
+            "criteria_id": "C6",
+            "split": "final_evaluate",
+            "expected_parameters": {
+                "source_label": 14,
+                "sink_label": 20,
+                "start_soc_percentage": 1,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": "Via Charger 6",
+                "cost_m": 18458,
+                "path": [
+                    14,
+                    10,
+                    6,
+                    19,
+                    9,
+                    11,
+                    13,
+                    20
+                ]
+            }
+        },
+        {
+            "id": "eval_C6_054_Synthetic",
+            "criteria_id": "C6",
+            "split": "final_evaluate",
+            "expected_parameters": {
+                "source_label": 15,
+                "sink_label": 22,
+                "start_soc_percentage": 1,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": null,
+                "cost_m": null,
+                "path": null
+            }
+        },
+        {
+            "id": "eval_C6_046_Synthetic",
+            "criteria_id": "C6",
+            "split": "train",
+            "expected_parameters": {
+                "source_label": 15,
+                "sink_label": 7,
+                "start_soc_percentage": 1,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": null,
+                "cost_m": null,
+                "path": null
+            }
+        },
+        {
+            "id": "eval_C6_047_Synthetic",
+            "criteria_id": "C6",
+            "split": "train",
+            "expected_parameters": {
+                "source_label": 17,
+                "sink_label": 9,
+                "start_soc_percentage": 5,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": null,
+                "cost_m": null,
+                "path": null
+            }
+        },
+        {
+            "id": "eval_C6_048_Synthetic",
+            "criteria_id": "C6",
+            "split": "train",
+            "expected_parameters": {
+                "source_label": 17,
+                "sink_label": 21,
+                "start_soc_percentage": 5,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": null,
+                "cost_m": null,
+                "path": null
+            }
+        },
+        {
+            "id": "eval_C6_049_Synthetic",
+            "criteria_id": "C6",
+            "split": "train",
+            "expected_parameters": {
+                "source_label": 14,
+                "sink_label": 2,
+                "start_soc_percentage": 1,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": "Via Charger 6",
+                "cost_m": 32603,
+                "path": [
+                    14,
+                    10,
+                    6,
+                    19,
+                    9,
+                    23,
+                    22,
+                    3,
+                    2
+                ]
+            }
+        },
+        {
+            "id": "eval_C6_050_Synthetic",
+            "criteria_id": "C6",
+            "split": "validate",
+            "expected_parameters": {
+                "source_label": 15,
+                "sink_label": 23,
+                "start_soc_percentage": 1,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": null,
+                "cost_m": null,
+                "path": null
+            }
+        },
+        {
+            "id": "eval_C6_051_Synthetic",
+            "criteria_id": "C6",
+            "split": "validate",
+            "expected_parameters": {
+                "source_label": 14,
+                "sink_label": 15,
+                "start_soc_percentage": 1,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": "Direct",
+                "cost_m": 3351,
+                "path": [
+                    14,
+                    10,
+                    24,
+                    15
+                ]
+            }
+        },
+        {
+            "id": "eval_C7_061_Synthetic",
+            "criteria_id": "C7",
+            "split": "final_evaluate",
+            "expected_parameters": {
+                "source_label": 20,
+                "sink_label": 2,
+                "start_soc_percentage": 1,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": null,
+                "cost_m": null,
+                "path": null
+            }
+        },
+        {
+            "id": "eval_C7_062_Synthetic",
+            "criteria_id": "C7",
+            "split": "final_evaluate",
+            "expected_parameters": {
+                "source_label": 14,
+                "sink_label": 0,
+                "start_soc_percentage": 5,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": "Via Charger 6",
+                "cost_m": 49972,
+                "path": [
+                    14,
+                    10,
+                    6,
+                    19,
+                    9,
+                    23,
+                    22,
+                    3,
+                    2,
+                    1,
+                    0
+                ]
+            }
+        },
+        {
+            "id": "eval_C7_063_Synthetic",
+            "criteria_id": "C7",
+            "split": "final_evaluate",
+            "expected_parameters": {
+                "source_label": 12,
+                "sink_label": 20,
+                "start_soc_percentage": 1,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": null,
+                "cost_m": null,
+                "path": null
+            }
+        },
+        {
+            "id": "eval_C7_055_Synthetic",
+            "criteria_id": "C7",
+            "split": "train",
+            "expected_parameters": {
+                "source_label": 14,
+                "sink_label": 0,
+                "start_soc_percentage": 10,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": "Via Charger 2",
+                "cost_m": 48067,
+                "path": [
+                    14,
+                    10,
+                    24,
+                    19,
+                    9,
+                    23,
+                    22,
+                    3,
+                    2,
+                    1,
+                    0
+                ]
+            }
+        },
+        {
+            "id": "eval_C7_056_Synthetic",
+            "criteria_id": "C7",
+            "split": "train",
+            "expected_parameters": {
+                "source_label": 7,
+                "sink_label": 0,
+                "start_soc_percentage": 5,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": "Via Charger 6",
+                "cost_m": 54911,
+                "path": [
+                    7,
+                    24,
+                    10,
+                    6,
+                    19,
+                    9,
+                    23,
+                    22,
+                    3,
+                    2,
+                    1,
+                    0
+                ]
+            }
+        },
+        {
+            "id": "eval_C7_057_Synthetic",
+            "criteria_id": "C7",
+            "split": "train",
+            "expected_parameters": {
+                "source_label": 15,
+                "sink_label": 0,
+                "start_soc_percentage": 5,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": "Via Charger 6",
+                "cost_m": 50634,
+                "path": [
+                    15,
+                    24,
+                    10,
+                    6,
+                    19,
+                    9,
+                    23,
+                    22,
+                    3,
+                    2,
+                    1,
+                    0
+                ]
+            }
+        },
+        {
+            "id": "eval_C7_058_Synthetic",
+            "criteria_id": "C7",
+            "split": "train",
+            "expected_parameters": {
+                "source_label": 18,
+                "sink_label": 0,
+                "start_soc_percentage": 15,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": "Via Charger 2",
+                "cost_m": 78664,
+                "path": [
+                    18,
+                    17,
+                    7,
+                    24,
+                    19,
+                    9,
+                    23,
+                    22,
+                    3,
+                    2,
+                    1,
+                    0
+                ]
+            }
+        },
+        {
+            "id": "eval_C7_059_Synthetic",
+            "criteria_id": "C7",
+            "split": "validate",
+            "expected_parameters": {
+                "source_label": 20,
+                "sink_label": 9,
+                "start_soc_percentage": 1,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": null,
+                "cost_m": null,
+                "path": null
+            }
+        },
+        {
+            "id": "eval_C7_060_Synthetic",
+            "criteria_id": "C7",
+            "split": "validate",
+            "expected_parameters": {
+                "source_label": 10,
+                "sink_label": 0,
+                "start_soc_percentage": 10,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": null,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": "Via Charger 2",
+                "cost_m": 46722,
+                "path": [
+                    10,
+                    24,
+                    19,
+                    9,
+                    23,
+                    22,
+                    3,
+                    2,
+                    1,
+                    0
+                ]
+            }
+        },
+        {
+            "id": "eval_C8_070_Synthetic",
+            "criteria_id": "C8",
+            "split": "final_evaluate",
+            "expected_parameters": {
+                "source_label": 21,
+                "sink_label": 17,
+                "start_soc_percentage": 5,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": 95,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": null,
+                "cost_m": null,
+                "path": null
+            }
+        },
+        {
+            "id": "eval_C8_071_Synthetic",
+            "criteria_id": "C8",
+            "split": "final_evaluate",
+            "expected_parameters": {
+                "source_label": 11,
+                "sink_label": 14,
+                "start_soc_percentage": 10,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": 95,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": "Via Charger 6",
+                "cost_m": 14861,
+                "path": [
+                    11,
+                    9,
+                    19,
+                    6,
+                    10,
+                    14
+                ]
+            }
+        },
+        {
+            "id": "eval_C8_072_Synthetic",
+            "criteria_id": "C8",
+            "split": "final_evaluate",
+            "expected_parameters": {
+                "source_label": 18,
+                "sink_label": 19,
+                "start_soc_percentage": 5,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": 95,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": null,
+                "cost_m": null,
+                "path": null
+            }
+        },
+        {
+            "id": "eval_C8_064_Synthetic",
+            "criteria_id": "C8",
+            "split": "train",
+            "expected_parameters": {
+                "source_label": 13,
+                "sink_label": 14,
+                "start_soc_percentage": 15,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": 95,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": "Via Charger 6",
+                "cost_m": 17327,
+                "path": [
+                    13,
+                    11,
+                    9,
+                    19,
+                    6,
+                    10,
+                    14
+                ]
+            }
+        },
+        {
+            "id": "eval_C8_065_Synthetic",
+            "criteria_id": "C8",
+            "split": "train",
+            "expected_parameters": {
+                "source_label": 9,
+                "sink_label": 14,
+                "start_soc_percentage": 5,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": 95,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": "Via Charger 6",
+                "cost_m": 12616,
+                "path": [
+                    9,
+                    19,
+                    6,
+                    10,
+                    14
+                ]
+            }
+        },
+        {
+            "id": "eval_C8_066_Synthetic",
+            "criteria_id": "C8",
+            "split": "train",
+            "expected_parameters": {
+                "source_label": 23,
+                "sink_label": 14,
+                "start_soc_percentage": 5,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": 95,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": "Via Charger 6",
+                "cost_m": 16272,
+                "path": [
+                    23,
+                    9,
+                    19,
+                    6,
+                    10,
+                    14
+                ]
+            }
+        },
+        {
+            "id": "eval_C8_067_Synthetic",
+            "criteria_id": "C8",
+            "split": "train",
+            "expected_parameters": {
+                "source_label": 20,
+                "sink_label": 14,
+                "start_soc_percentage": 15,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": 95,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": "Via Charger 6",
+                "cost_m": 18458,
+                "path": [
+                    20,
+                    13,
+                    11,
+                    9,
+                    19,
+                    6,
+                    10,
+                    14
+                ]
+            }
+        },
+        {
+            "id": "eval_C8_068_Synthetic",
+            "criteria_id": "C8",
+            "split": "validate",
+            "expected_parameters": {
+                "source_label": 13,
+                "sink_label": 17,
+                "start_soc_percentage": 15,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": 95,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": null,
+                "cost_m": null,
+                "path": null
+            }
+        },
+        {
+            "id": "eval_C8_069_Synthetic",
+            "criteria_id": "C8",
+            "split": "validate",
+            "expected_parameters": {
+                "source_label": 23,
+                "sink_label": 14,
+                "start_soc_percentage": 15,
+                "battery_capacity_kwh": 70.0,
+                "consumption_kwh_per_100km": 15.0,
+                "cost_attribute": "distance_km",
+                "end_soc_percentage": 95,
+                "green_charger_only": false
+            },
+            "expected_result": {
+                "route_type": "Via Charger 6",
+                "cost_m": 16272,
+                "path": [
+                    23,
+                    9,
+                    19,
+                    6,
+                    10,
+                    14
+                ]
+            }
+        }
+    ]
+}
