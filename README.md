@@ -17,6 +17,21 @@ Every dataset is split into three sets: `train`, `validate`, and `final_evaluate
 
 ---
 
+## Paper ↔ File Mapping
+
+The paper (`main.tex`) refers to the four benchmark families by acronym. The table below maps those names to the files in this folder.
+
+| Paper name | Full name | Benchmark file | Graph asset |
+| --- | --- | --- | --- |
+| **SEVR** | Simulated EV Routing | [`routing_synthetic.json`](routing_synthetic.json) | [`synthetic_graph.json`](synthetic_graph.json) |
+| **REVR** | Real EV Routing | [`routing_real.json`](routing_real.json) | [`doha_ev_graph_dataset.json`](doha_ev_graph_dataset.json) |
+| **SSC** | Synthetic Smart Charging | [`smart_charging_eval_dataset_old.json`](smart_charging_eval_dataset_old.json) | — |
+| **RSC** | Real Smart Charging | [`ev2gym_simulated_dataset.json`](ev2gym_simulated_dataset.json) | — |
+
+The implementation and prompt-artifact naming uses a separate convention: **SEVR** → `routing_synthetic`, **REVR** → `routing_real`, **SSC** → `smart_charging_legacy`, and **RSC** → `smart_charging_simulated`.
+
+---
+
 ## Smart Charging Datasets
 
 Two smart-charging benchmarks share the criterion labels `C1`–`C5` but use different physical models.
